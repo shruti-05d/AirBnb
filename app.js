@@ -117,9 +117,9 @@ app.use((req, res, next) => {
 // Test Route
 // --------------------
 
-// app.get("/", (req, res) => {
-//   res.send("Hi, I am root");
-// });
+app.get("/", (req, res) => {
+  res.redirect("/listings");
+});
 
 // --------------------
 // Demo User
